@@ -23,6 +23,21 @@ import {
   jobit,
   tripguide,
   threejs,
+  ai,
+  datascience,
+  connection,
+  Keck,
+  tata,
+  c5,
+  ac,
+  python,
+  r,
+  sql,
+  django,
+  agentic,
+  diffusion,
+  xai,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -42,47 +57,45 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI/ML",
+    icon: ai,
+  },
+  {
+    title: "Data Science",
+    icon: datascience,
+    // icon: mobile,
+  },
+  {
+    title: "Cloud",
+    // icon: backend,
+    icon: connection,
+  },
+  {
+    title: "Web Development",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "HTML5",
+    icon: html,
+  },
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "Tailwind CSS",
@@ -105,66 +118,66 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Django",
+    icon: django,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Graduate Machine Learning Research Assistant",
+    company_name: "USC Keck Medicine of School",
+    icon: Keck,
+    iconBg: "#922B21",
+    date: "Nov 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing MRI synthesis models with MONAI.",
+      "Optimized ViT/DenseNet in PyTorch for Alzheimer’s classification, achieving 0.92 AUC and 11 percent improvement via parameter-efficient fine-tuning",
+      "Evaluated deep learning models for neuroimaging classification tasks using DTI mean diffusivity maps.",
+      "Implemented 2D and 3D convolutional neural networks for binary classification problems in the medical imaging domain.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Computer Vision Research Intern",
+    company_name: "TATA Advanced Systems Limited",
+    icon: tata,
+    iconBg: "#FFFFFF",
+    date: "Aug 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered and deployed an automated facial recognition system on SpiderCloud to identify crime suspects.",
+      "Developed an automatic license plate scanning solution for real-time monitoring and operational scalability.",
+      "Implemented 3D Facial Reconstruction.",
+      "Alert dissemination feature to the nearest police stations.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Digital and Advanced Analytics Intern",
+    company_name: "Course5 Intelligence",
+    icon: c5,
+    iconBg: "#FFFFFF",
+    date: "Aug 2022 - Sept 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented SQL query optimization strategies in snowflake databases to reduce processing times.",
+      "Designed a user friendly Streamlit Python app with dynamic visualisations and plots enhancing data-driven decision making efficiency.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Django Developer Intern",
+    company_name: "Articuno Coding LLP",
+    icon: ac,
+    iconBg: "#000000",
+    date: "July 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Redesigned a Learning Management System (LMS) featuring user authentication, course creation and management, quizzes, progress tracking.",
+      "Developed an admin panel along with it for managing courses and users.",
     ],
   },
 ];
@@ -172,93 +185,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Perseverance,sincerity, and thirst for knowledge have always been the hallmark of his personality.",
+    name: "Dr. Vinaya Sawant",
+    designation: "HOD",
+    company: "University of Mumbai",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFDxyOO_iHKyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589219511132?e=1756339200&v=beta&t=5cpmTzcerImoQJge6WjESUd2C010FKIoPJ7j5FjzSTA",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "During his internship with us, he was found to be sincere and hardworking.",
+    name: "Mr. Sunil Badlani",
+    designation: "Horizontal head at The Tata Power Company",
+    company: "TATA Adavnced Systems Limited",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFDxyOO_iHKyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589219511132?e=1756339200&v=beta&t=5cpmTzcerImoQJge6WjESUd2C010FKIoPJ7j5FjzSTA",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Vraj used SQL query optimization strategies in the snowflake databases, it significantly reduced our processing times.",
+    name: "Mr. Rizwan Khan",
+    designation: "Project Manager",
+    company: "Course5 Intelligence",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFDxyOO_iHKyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589219511132?e=1756339200&v=beta&t=5cpmTzcerImoQJge6WjESUd2C010FKIoPJ7j5FjzSTA",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Agnetic AI Assistant",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built an Agentic AI Workflow Assistant that autonomously books flights, reserves hotels, and schedules calendar events using LangChain agents and real-world APIs. Integrated OpenAI, Amadeus, RapidAPI, and Google Calendar for end-to-end task execution based on natural language prompts.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "LangChain",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Streamlit",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: agentic,
+    source_code_link: "https://github.com/vrajdesai17/Agnetic-AI-Assistant",
   },
   {
-    name: "Job IT",
+    name: "Synthetic Diffusion Tensor Imaging Maps",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed and evaluated deep learning models for neuroimaging classification tasks using DTI mean diffusivity maps and Implemented 2D and 3D convolutional neural networks for binary classification problems in the medical imaging domain.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PyTorch",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Diffusion",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: diffusion,
+    source_code_link: "https://github.com/vrajdesai17/Synthetic-Diffusion-Tensor-Imaging-DTI-Maps",
   },
   {
-    name: "Trip Guide",
+    name: "XAI for Detection of Incidents of Fake News and Hate Speech",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Implemented explainable AI models for NLP workflow like SHAP , LIME and ELI5 that enable users to understand why a particular content item is flagged as problematic, fostering trust and accountability in content moderation efforts.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "XAI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: xai,
+    source_code_link: "https://github.com/vrajdesai17/XAI-RP",
   },
 ];
 

@@ -20,15 +20,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import r from "./tech/r.png";
+import sql from "./tech/sql.png";
+import django from "./tech/django.png";
+import aws from "./tech/AWS.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Keck from "./company/Keck.png";
+import tata from "./company/TATA.png";
+import c5 from "./company/C5.png";
+import ac from "./company/AC.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import ai from "./ai.png";     
+import datascience from "./datascience.png";  
+import connection from "./connection.png";
+import agentic from "./AgenticAI.png";
+import diffusion from "./Diffusion.png";
+import xai from "./XAI.png";
+
 
 export {
   logo,
@@ -59,4 +76,19 @@ export {
   carrent,
   jobit,
   tripguide,
+  ai,
+  connection,
+  datascience,
+  Keck,
+  tata,
+  c5,
+  ac,
+  python,
+  r,
+  sql,
+  django,
+  agentic,
+  diffusion,
+  xai,
+  aws
 };
