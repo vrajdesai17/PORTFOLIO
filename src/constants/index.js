@@ -197,7 +197,7 @@ const testimonials = [
     name: "Mr. Sunil Badlani",
     designation: "Horizontal head at The Tata Power Company",
     company: "TATA Adavnced Systems Limited",
-    image: "https://media.licdn.com/dms/image/v2/C5603AQFDxyOO_iHKyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589219511132?e=1756339200&v=beta&t=5cpmTzcerImoQJge6WjESUd2C010FKIoPJ7j5FjzSTA",
+    image: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
   },
   {
     testimonial:
@@ -205,7 +205,7 @@ const testimonials = [
     name: "Mr. Rizwan Khan",
     designation: "Project Manager",
     company: "Course5 Intelligence",
-    image: "https://media.licdn.com/dms/image/v2/C5603AQFDxyOO_iHKyQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589219511132?e=1756339200&v=beta&t=5cpmTzcerImoQJge6WjESUd2C010FKIoPJ7j5FjzSTA",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHfZ4pypBZ8mg/profile-displayphoto-shrink_400_400/B4DZcrDeV_GgAg-/0/1748774021054?e=1756339200&v=beta&t=4oMMTQ4gYLTfV-Q7WMrJajTxqLO4Fp41vLToiv1xVbk",
   },
 ];
 
